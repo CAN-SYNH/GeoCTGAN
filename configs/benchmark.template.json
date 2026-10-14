@@ -1,0 +1,20 @@
+{
+  "BASE_DIR": "/path/to/Toronto/data",
+  "OUTPUT_DIR": "/path/to/GeoCTGAN/outputs",
+  "SELECTED_CONFIG_PATH": "/path/to/GeoCTGAN_Selection_DATE_TIME/Metadata/selected_config.json",
+  "REQUIRE_SELECTED_CONFIG": true,
+  "EPOCHS": 300,
+  "ENABLE_GPU": true,
+  "BENCHMARK_SEEDS": [
+    42,
+    52,
+    62
+  ],
+  "BENCHMARK_METHODS": [
+    "GaussianCopula",
+    "CTGAN_RawLatLon",
+    "KDE_AttributeBootstrap",
+    "RoadSupportBootstrap"
+  ],
+  "SEED": 42
+}

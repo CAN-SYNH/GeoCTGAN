@@ -1,0 +1,31 @@
+{
+  "BASE_DIR": "/path/to/Toronto/data",
+  "OUTPUT_DIR": "/path/to/GeoCTGAN/outputs",
+  "ZIP_EVENTS": "MCI_OPEN_DATA.zip",
+  "ZIP_NETWORK": "RoadNetworkExport.zip",
+  "EVENTS_MEMBER": "MCI_OPEN_DATA.shp",
+  "NETWORK_MEMBER": "RoadNetworkExport/toronto_network.gpkg",
+  "NETWORK_LAYER": "roads_edges",
+  "REQUIRE_AUTHORITATIVE_TOPOLOGY": true,
+  "SELECTED_CONFIG_PATH": "/path/to/GeoCTGAN_Selection_DATE_TIME/Metadata/selected_config.json",
+  "REQUIRE_SELECTED_CONFIG": true,
+  "EPOCHS": 300,
+  "ENABLE_GPU": true,
+  "DEFINITIVE_SEEDS": [
+    42,
+    52,
+    62
+  ],
+  "RESUME_TRAINING": true,
+  "RESUME_GENERATION": true,
+  "RESUME_CANN": true,
+  "MAX_MODEL_CACHE": 1,
+  "CANN_GROUP_TIME_LIMIT_S": 600,
+  "CANN_MAX_EDGES": 5000000,
+  "CANN_REQUIRE_ORTOOLS": true,
+  "PUBLIC_RELEASE_ENABLED": true,
+  "PUBLIC_RELEASE_CAPACITY_MODE": "upper_quota",
+  "ALLOW_EXACT_QUOTA_PUBLIC_RELEASE": false,
+  "SEED": 42,
+  "CANN_PREFLIGHT_LARGEST_GROUPS": 3
+}
